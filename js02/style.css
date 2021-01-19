@@ -1,0 +1,25 @@
+:root{
+	--spacing:10px;
+	--base:#000000;
+	--blur:10px;
+}
+body{
+	text-align:center;
+	font-family:"helvetica";
+	font-weight:100;
+	font-size:50px;
+}
+.hl{
+	color:var(--base);
+}
+.controls{
+	margin:10px;
+}
+img{
+	height:500px;
+	width:350px;
+	filter:blur(var(--blur));
+	padding:var(--spacing);
+	box-sizing: border-box;
+	background-color:var(--base);
+}
